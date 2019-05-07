@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4234E86BEE20C4E5B93DB4D8 /* Pods_ARPittITHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B33D588C92C196806D53D21 /* Pods_ARPittITHelperUITests.framework */; };
+		44D06C1C658000D034B5DDFD /* Pods_ARPittITHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698360ECFF3C9A74B939A548 /* Pods_ARPittITHelperTests.framework */; };
 		8F823F51227C052B00800179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F50227C052B00800179 /* AppDelegate.swift */; };
 		8F823F53227C052B00800179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F52227C052B00800179 /* ViewController.swift */; };
 		8F823F56227C052B00800179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823F54227C052B00800179 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		8F823F5B227C052D00800179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823F59227C052D00800179 /* LaunchScreen.storyboard */; };
 		8F823F66227C052D00800179 /* ARPittITHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F65227C052D00800179 /* ARPittITHelperTests.swift */; };
 		8F823F71227C052D00800179 /* ARPittITHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */; };
+		967B0038BF59A3DDE2828585 /* Pods_ARPittITHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096788DE28BDB5E90083CA14 /* Pods-ARPittITHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperUITests/Pods-ARPittITHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B33D588C92C196806D53D21 /* Pods_ARPittITHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPittITHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26093B80AF7218BCA4351534 /* Pods-ARPittITHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperUITests.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperUITests/Pods-ARPittITHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		698360ECFF3C9A74B939A548 /* Pods_ARPittITHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPittITHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D6D4D71EB9BF680B113C92 /* Pods-ARPittITHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelper.debug.xcconfig"; path = "Target Support Files/Pods-ARPittITHelper/Pods-ARPittITHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		8F823F4D227C052B00800179 /* ARPittITHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPittITHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823F50227C052B00800179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F823F52227C052B00800179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		8F823F6C227C052D00800179 /* ARPittITHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPittITHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPittITHelperUITests.swift; sourceTree = "<group>"; };
 		8F823F72227C052D00800179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB030056382285251CDF4E3B /* Pods-ARPittITHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelper.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelper/Pods-ARPittITHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D24E0CC86E521D9E62FF4860 /* Pods-ARPittITHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperTests.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperTests/Pods-ARPittITHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPittITHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09B490CE5E47530ED85890 /* Pods-ARPittITHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperTests.debug.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperTests/Pods-ARPittITHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967B0038BF59A3DDE2828585 /* Pods_ARPittITHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D06C1C658000D034B5DDFD /* Pods_ARPittITHelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4234E86BEE20C4E5B93DB4D8 /* Pods_ARPittITHelperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7933FC3B850A3B20E6FDCA8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D6D4D71EB9BF680B113C92 /* Pods-ARPittITHelper.debug.xcconfig */,
+				CB030056382285251CDF4E3B /* Pods-ARPittITHelper.release.xcconfig */,
+				FB09B490CE5E47530ED85890 /* Pods-ARPittITHelperTests.debug.xcconfig */,
+				D24E0CC86E521D9E62FF4860 /* Pods-ARPittITHelperTests.release.xcconfig */,
+				096788DE28BDB5E90083CA14 /* Pods-ARPittITHelperUITests.debug.xcconfig */,
+				26093B80AF7218BCA4351534 /* Pods-ARPittITHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8F823F44227C052B00800179 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				8F823F64227C052D00800179 /* ARPittITHelperTests */,
 				8F823F6F227C052D00800179 /* ARPittITHelperUITests */,
 				8F823F4E227C052B00800179 /* Products */,
+				7933FC3B850A3B20E6FDCA8C /* Pods */,
+				FB30BA465405E656A37B88F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = ARPittITHelperUITests;
 			sourceTree = "<group>";
 		};
+		FB30BA465405E656A37B88F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */,
+				698360ECFF3C9A74B939A548 /* Pods_ARPittITHelperTests.framework */,
+				1B33D588C92C196806D53D21 /* Pods_ARPittITHelperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F823F75227C052D00800179 /* Build configuration list for PBXNativeTarget "ARPittITHelper" */;
 			buildPhases = (
+				5A4E6308E49F11F3772D2E06 /* [CP] Check Pods Manifest.lock */,
 				8F823F49227C052B00800179 /* Sources */,
 				8F823F4A227C052B00800179 /* Frameworks */,
 				8F823F4B227C052B00800179 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F823F78227C052D00800179 /* Build configuration list for PBXNativeTarget "ARPittITHelperTests" */;
 			buildPhases = (
+				8F7B374430BE54AEB9732C6F /* [CP] Check Pods Manifest.lock */,
 				8F823F5D227C052D00800179 /* Sources */,
 				8F823F5E227C052D00800179 /* Frameworks */,
 				8F823F5F227C052D00800179 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F823F7B227C052D00800179 /* Build configuration list for PBXNativeTarget "ARPittITHelperUITests" */;
 			buildPhases = (
+				C8C5262A86D4FEBC71A4BBD5 /* [CP] Check Pods Manifest.lock */,
 				8F823F68227C052D00800179 /* Sources */,
 				8F823F69227C052D00800179 /* Frameworks */,
 				8F823F6A227C052D00800179 /* Resources */,
@@ -250,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A4E6308E49F11F3772D2E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARPittITHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7B374430BE54AEB9732C6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARPittITHelperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C5262A86D4FEBC71A4BBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARPittITHelperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F823F49227C052B00800179 /* Sources */ = {
@@ -430,11 +543,13 @@
 		};
 		8F823F76227C052D00800179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D6D4D71EB9BF680B113C92 /* Pods-ARPittITHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D72NW9AP4N;
 				INFOPLIST_FILE = ARPittITHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +563,13 @@
 		};
 		8F823F77227C052D00800179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB030056382285251CDF4E3B /* Pods-ARPittITHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D72NW9AP4N;
 				INFOPLIST_FILE = ARPittITHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +583,7 @@
 		};
 		8F823F79227C052D00800179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB09B490CE5E47530ED85890 /* Pods-ARPittITHelperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +605,7 @@
 		};
 		8F823F7A227C052D00800179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24E0CC86E521D9E62FF4860 /* Pods-ARPittITHelperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +627,7 @@
 		};
 		8F823F7C227C052D00800179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096788DE28BDB5E90083CA14 /* Pods-ARPittITHelperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +648,7 @@
 		};
 		8F823F7D227C052D00800179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26093B80AF7218BCA4351534 /* Pods-ARPittITHelperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

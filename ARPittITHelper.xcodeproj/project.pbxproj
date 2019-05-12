@@ -16,6 +16,7 @@
 		8F823F5B227C052D00800179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823F59227C052D00800179 /* LaunchScreen.storyboard */; };
 		8F823F66227C052D00800179 /* ARPittITHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F65227C052D00800179 /* ARPittITHelperTests.swift */; };
 		8F823F71227C052D00800179 /* ARPittITHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */; };
+		8FF98D7F2287771C0064D8B6 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8FF98D7E2287771C0064D8B6 /* OpenCVWrapper.mm */; };
 		967B0038BF59A3DDE2828585 /* Pods_ARPittITHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		26093B80AF7218BCA4351534 /* Pods-ARPittITHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperUITests.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperUITests/Pods-ARPittITHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		698360ECFF3C9A74B939A548 /* Pods_ARPittITHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPittITHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D6D4D71EB9BF680B113C92 /* Pods-ARPittITHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelper.debug.xcconfig"; path = "Target Support Files/Pods-ARPittITHelper/Pods-ARPittITHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		8F5B3826228797EE00A8F4AC /* ARPittITHelperPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPittITHelperPrefix.pch; sourceTree = "<group>"; };
 		8F823F4D227C052B00800179 /* ARPittITHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPittITHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823F50227C052B00800179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F823F52227C052B00800179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,9 @@
 		8F823F6C227C052D00800179 /* ARPittITHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPittITHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPittITHelperUITests.swift; sourceTree = "<group>"; };
 		8F823F72227C052D00800179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF98D7C228776EC0064D8B6 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		8FF98D7D2287771B0064D8B6 /* ARPittITHelper-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = "ARPittITHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FF98D7E2287771C0064D8B6 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
 		CB030056382285251CDF4E3B /* Pods-ARPittITHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelper.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelper/Pods-ARPittITHelper.release.xcconfig"; sourceTree = "<group>"; };
 		D24E0CC86E521D9E62FF4860 /* Pods-ARPittITHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPittITHelperTests.release.xcconfig"; path = "Target Support Files/Pods-ARPittITHelperTests/Pods-ARPittITHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARPittITHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +104,18 @@
 				096788DE28BDB5E90083CA14 /* Pods-ARPittITHelperUITests.debug.xcconfig */,
 				26093B80AF7218BCA4351534 /* Pods-ARPittITHelperUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F1B98FC22877632009E8A61 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				8FF98D7C228776EC0064D8B6 /* OpenCVWrapper.h */,
+				8FF98D7E2287771C0064D8B6 /* OpenCVWrapper.mm */,
+				8FF98D7D2287771B0064D8B6 /* ARPittITHelper-Bridging-Header.h */,
+				8F5B3826228797EE00A8F4AC /* ARPittITHelperPrefix.pch */,
+			);
+			path = Wrappers;
 			sourceTree = "<group>";
 		};
 		8F823F44227C052B00800179 = {
@@ -128,6 +143,7 @@
 		8F823F4F227C052B00800179 /* ARPittITHelper */ = {
 			isa = PBXGroup;
 			children = (
+				8F1B98FC22877632009E8A61 /* Wrappers */,
 				8F823F50227C052B00800179 /* AppDelegate.swift */,
 				8F823F52227C052B00800179 /* ViewController.swift */,
 				8F823F54227C052B00800179 /* Main.storyboard */,
@@ -237,6 +253,7 @@
 				TargetAttributes = {
 					8F823F4C227C052B00800179 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					8F823F60227C052D00800179 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -371,6 +388,7 @@
 			files = (
 				8F823F53227C052B00800179 /* ViewController.swift in Sources */,
 				8F823F51227C052B00800179 /* AppDelegate.swift in Sources */,
+				8FF98D7F2287771C0064D8B6 /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,8 +564,14 @@
 			baseConfigurationReference = 72D6D4D71EB9BF680B113C92 /* Pods-ARPittITHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D72NW9AP4N;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ARPittITHelper/Wrappers/ARPittITHelperPrefix.pch";
 				INFOPLIST_FILE = ARPittITHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,6 +580,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinke-Chen.ARPittITHelper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARPittITHelper/Wrappers/ARPittITHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -566,8 +592,14 @@
 			baseConfigurationReference = CB030056382285251CDF4E3B /* Pods-ARPittITHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D72NW9AP4N;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ARPittITHelper/Wrappers/ARPittITHelperPrefix.pch";
 				INFOPLIST_FILE = ARPittITHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,6 +608,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Xinke-Chen.ARPittITHelper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARPittITHelper/Wrappers/ARPittITHelper-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

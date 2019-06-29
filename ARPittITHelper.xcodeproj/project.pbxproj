@@ -16,6 +16,8 @@
 		8F823F5B227C052D00800179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823F59227C052D00800179 /* LaunchScreen.storyboard */; };
 		8F823F66227C052D00800179 /* ARPittITHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F65227C052D00800179 /* ARPittITHelperTests.swift */; };
 		8F823F71227C052D00800179 /* ARPittITHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */; };
+		8FAC164122BC4B2E00BB6CA8 /* ARSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC164022BC4B2E00BB6CA8 /* ARSceneController.swift */; };
+		8FC9A01722C7BBE000F63C35 /* taskScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FC9A01622C7BBE000F63C35 /* taskScene.sks */; };
 		8FF98D7F2287771C0064D8B6 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8FF98D7E2287771C0064D8B6 /* OpenCVWrapper.mm */; };
 		967B0038BF59A3DDE2828585 /* Pods_ARPittITHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0AFA3298B5974611E3906E /* Pods_ARPittITHelper.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		8F823F6C227C052D00800179 /* ARPittITHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPittITHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823F70227C052D00800179 /* ARPittITHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPittITHelperUITests.swift; sourceTree = "<group>"; };
 		8F823F72227C052D00800179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAC164022BC4B2E00BB6CA8 /* ARSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneController.swift; sourceTree = "<group>"; };
+		8FC9A01622C7BBE000F63C35 /* taskScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = taskScene.sks; sourceTree = "<group>"; };
 		8FF98D7C228776EC0064D8B6 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
 		8FF98D7D2287771B0064D8B6 /* ARPittITHelper-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = "ARPittITHelper-Bridging-Header.h"; sourceTree = "<group>"; };
 		8FF98D7E2287771C0064D8B6 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				8F1B98FC22877632009E8A61 /* Wrappers */,
 				8F823F50227C052B00800179 /* AppDelegate.swift */,
 				8F823F52227C052B00800179 /* ViewController.swift */,
+				8FAC164022BC4B2E00BB6CA8 /* ARSceneController.swift */,
+				8FC9A01622C7BBE000F63C35 /* taskScene.sks */,
 				8F823F54227C052B00800179 /* Main.storyboard */,
 				8F823F57227C052D00800179 /* Assets.xcassets */,
 				8F823F59227C052D00800179 /* LaunchScreen.storyboard */,
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F823F5B227C052D00800179 /* LaunchScreen.storyboard in Resources */,
+				8FC9A01722C7BBE000F63C35 /* taskScene.sks in Resources */,
 				8F823F58227C052D00800179 /* Assets.xcassets in Resources */,
 				8F823F56227C052B00800179 /* Main.storyboard in Resources */,
 			);
@@ -389,6 +396,7 @@
 				8F823F53227C052B00800179 /* ViewController.swift in Sources */,
 				8F823F51227C052B00800179 /* AppDelegate.swift in Sources */,
 				8FF98D7F2287771C0064D8B6 /* OpenCVWrapper.mm in Sources */,
+				8FAC164122BC4B2E00BB6CA8 /* ARSceneController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
